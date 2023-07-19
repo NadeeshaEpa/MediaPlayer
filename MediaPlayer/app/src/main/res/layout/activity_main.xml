@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/btn_default"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/purple_500"/>
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/btn_default"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/btn_default"
+        android:padding="16dp"
+        android:backgroundTint="@color/purple_200"/>
+
+</LinearLayout>
